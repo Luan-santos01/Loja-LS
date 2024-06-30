@@ -60,6 +60,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    border-radius:10px;
 }
 
 
@@ -71,7 +72,7 @@ body {
 }
 
 .hero:after{
-    content: url('../images/seta_preta.png');
+    content: url('');
     height: 35px;
     bottom: 40px;
     color: #fff;
@@ -102,6 +103,7 @@ body {
     background-color: #fff;
     max-width: var(--max-whidth-size);
     margin: 0 auto;
+    padding: 12px;
 }
 
 .about .item{
@@ -126,6 +128,7 @@ body {
 .about .image{
     height: 100%;
     width: 100%;
+    border-radius: 15px;
 }
 
 .about .item .btn-know-more{
@@ -214,9 +217,10 @@ body {
 }
 
 .projects img{
-    height: 100%;
     transition: 0.3s;
     border-radius: 10px; 
+    border: 10px;
+    padding: 3px;
 }
 
 .projects a:hover img{
